@@ -1,3 +1,0 @@
-#!/bin/bash
-
-wget -q -O data.zip "https://cloud.geo.tuwien.ac.at/s/cNoJcXojZQyTfWG/download" && unzip data.zip && rm data.zip
