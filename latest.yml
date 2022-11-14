@@ -1,0 +1,26 @@
+name: ltc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.8 
+  - jupyterlab
+  - pandas
+  - numpy
+  - scipy
+  - cython
+  - netCDF4
+  - xarray
+  - pykdtree
+  - pyresample
+  - numba
+  - matplotlib
+  - ipympl
+  - cartopy
+  - seaborn
+  - pip
+  - pip:
+    - pytesmo>=0.14.0
+    - ismn>=1.2.0
+    - tqdm
+    - ipywidgets
