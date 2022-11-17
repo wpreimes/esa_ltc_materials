@@ -1,2 +1,7 @@
-conda activate ltc
+#!/bin/bash
+
+conda init bash
+conda remove -n ltc_build --all --yes
+conda env create -f latest.yml -n ltc_build
+conda activate ltc_build
 conda env export --no-builds | grep -v "prefix" > environment.yml

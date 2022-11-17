@@ -145,6 +145,7 @@ dependencies:
   - pandoc=2.19.2
   - pandocfilters=1.5.0
   - parso=0.8.3
+  - patsy=0.5.3
   - pcre=8.45
   - pexpect=4.8.0
   - pickleshare=0.7.5
@@ -181,6 +182,8 @@ dependencies:
   - readline=8.1.2
   - requests=2.28.1
   - scipy=1.9.3
+  - seaborn=0.12.1
+  - seaborn-base=0.12.1
   - send2trash=1.8.0
   - setuptools=65.5.1
   - shapely=1.8.5
@@ -189,6 +192,7 @@ dependencies:
   - soupsieve=2.3.2.post1
   - sqlite=3.39.4
   - stack_data=0.6.1
+  - statsmodels=0.13.5
   - terminado=0.17.0
   - tinycss2=1.2.1
   - tk=8.6.12
