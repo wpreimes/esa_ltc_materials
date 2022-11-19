@@ -10,3 +10,13 @@ cm_sm = colors.LinearSegmentedColormap.from_list('BrownBlue',
             [4, 145, 251],
             [8, 83, 211],
             [13, 37, 161]]) / 255.)
+
+europe_countries = [
+    'Albania', 'Austria', 'Belarus', 'Belgium', 'Bosnia and Herz.',
+    'Bulgaria', 'Croatia', 'Czechia', 'Denmark', 'Estonia', 'Finland',
+    'France', 'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland',
+    'Italy', 'Kosovo', 'Latvia', 'Lithuania', 'Luxembourg',
+    'Macedonia', 'Moldova', 'Montenegro', 'Netherlands', 'Norway',
+    'Poland', 'Portugal', 'Romania', 'Serbia', 'Slovakia', 'Slovenia',
+    'Spain', 'Sweden', 'Switzerland', 'Ukraine', 'United Kingdom'
+]
