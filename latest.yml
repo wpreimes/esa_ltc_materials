@@ -18,6 +18,9 @@ dependencies:
   - ipympl
   - cartopy
   - seaborn
+  - rasterio
+  - dask
+  - rioxarray
   - pip
   - pip:
     - pytesmo>=0.14.0
