@@ -1,5 +1,0 @@
-- Cut the C3S stack to days after 2000 or so
-
-
-- SMAPI: Can we use moving average? or to clim mean, but then it's only a relative anomaly? Add sliders?
-- swdi: field capacity and wilting point

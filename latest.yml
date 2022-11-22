@@ -10,16 +10,20 @@ dependencies:
   - scipy
   - cython
   - netCDF4
+  - gdal
   - xarray
   - pykdtree
   - pyresample
   - numba
-  - matplotlib
-  - ipympl
+  - matplotlib==3.5.2
+  #- ipympl
   - cartopy
   - seaborn
+  - dask
   - pip
   - pip:
+    - rioxarray
+    - rasterio
     - pytesmo>=0.14.0
     - ismn>=1.2.0
     - tqdm
