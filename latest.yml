@@ -8,14 +8,14 @@ dependencies:
   - pandas
   - numpy
   - scipy
-  #- cython
+  - cython
   - netCDF4
-  #- gdal
+  - gdal
   - xarray
   - pykdtree
-  #- pyresample
-  #- numba
-  - matplotlib
+  - pyresample
+  - numba
+  - matplotlib==3.5.2
   #- ipympl
   - cartopy
   - seaborn
