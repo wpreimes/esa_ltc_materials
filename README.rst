@@ -5,7 +5,7 @@ ESA LTC 2022 Materials
 
 This package contains the jupyter notebooks for the "Soil Moisture" and "Drought" exercises held at the `ESA Land Training Course 2022 <https://landtraining2022.esa.int/>`_.
 
-The package is designed to run on `mybinder.org <mybinder.org/>`_. To open a notebook in your browser click on one of the following badges. Please note that opening the files on mybinder may take a few minutes (`it takes longer if the notebook was not used for some time <https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html#performance-and-speed>`_).
+The package is designed to run on `mybinder.org <https://mybinder.org/>`_. To open a notebook in your browser click on one of the following badges. Please note that opening the files on mybinder may take a few minutes (`it takes longer if the notebook was not used for some time <https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html#performance-and-speed>`_).
 
 ------------
 
