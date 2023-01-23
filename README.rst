@@ -27,6 +27,17 @@ The package is designed to run on `mybinder.org <https://mybinder.org/>`_. To op
 
 ------------
 
+Jupyter notebook controls
+-------------------------
+If you are not familiar with Jupyter Notebooks, there are numerous tutorials available online, e.g. `here <https://www.dataquest.io/blog/jupyter-notebook-tutorial/>`_ or `here <https://jupyter-tutorial.readthedocs.io/en/latest/first-steps/create-notebook.html>`_. Some cells in the notebooks depend on running previous cells first (otherwise you will see an error message). Therefore it is recommended to either run all cells directly (click 🞂🞂) or running individual cells from top to bottom (🞂).
+
+- **►** Run all code in a single code (cell)
+- **■** Interrupt the kernel to stop any code execution
+- **⟳** Restart the kernel
+- **🞂🞂** Restart Kernel and run all cells
+
+Other
+-----
 Data used in the tutorials is automatically downloaded when using binder (see the file ``postBuild``). However, if you want to download the data manually you can do this at https://cloud.geo.tuwien.ac.at/s/cNoJcXojZQyTfWG
 
 At some point the materials might not be available anymore, in this case you can open an issue on github and we will send you the files.
