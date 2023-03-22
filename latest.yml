@@ -1,9 +1,8 @@
 name: ltc
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - python==3.8 
+  - python>=3.8,<=3.9
   - jupyterlab
   - pandas
   - numpy
@@ -15,15 +14,16 @@ dependencies:
   - pykdtree
   - pyresample
   - numba
-  - matplotlib==3.5.2
+  - matplotlib==3.5.0
+  - jupyter_nbextensions_configurator
   #- ipympl
   - cartopy
   - seaborn
   - dask
+  - rioxarray
+  - rasterio
   - pip
   - pip:
-    - rioxarray
-    - rasterio
     - pytesmo>=0.14.0
     - ismn>=1.2.0
     - tqdm
