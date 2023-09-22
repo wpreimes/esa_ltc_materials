@@ -43,5 +43,7 @@ cover/*
 MANIFEST
 
 # data downloaded from geo cloud after building binder image
+LTC_DATA
 LTC_DATA/*
 data.zip
+2023_material
