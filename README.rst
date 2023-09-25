@@ -64,4 +64,4 @@ and activated:
 
 After this, the notebooks can be run with the command: 
 
-`jupyter-notebook`
+`jupyter lab`
