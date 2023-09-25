@@ -54,9 +54,9 @@ and move to the repository:
 
 `cd path/to/esa_ltc_materials`
 
-The datasets needed to run the notebooks are stored at the download link given in the `postBuild` script. After downloading and unzipping the material, it can be copied (or softlinked, with: `ln -s`) to the `esa_ltc_materials` local directory and renamed to `LTC_DATA`. The proper environment can be installed with 
+The datasets needed to run the notebooks are stored at the download link given in the `postBuild` script. Under linux you can just run it directly `./postBuild` which handles unzipping and creating the softlink for you. But you may also download and unzip the material manually, and copy (or softlink, with: `ln -s`) to the `esa_ltc_materials` local directory and rename it to `LTC_DATA`. The proper environment can be installed with 
 
-`conda env create -f path/to/esa_ltc_materials/latest.yml -n esa_ltc` 
+`conda env create -f path/to/esa_ltc_materials/environment.yml -n esa_ltc` 
 
 and activated: 
 
