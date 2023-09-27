@@ -65,3 +65,10 @@ and activated:
 After this, the notebooks can be run with the command: 
 
 `jupyter lab`
+
+Windows installation
+--------------------
+Download the repo with the installation and run scripts under this link:
+https://owncloud.tuwien.ac.at/index.php/s/VunDPPGVaR8WKeM/download
+
+Execute `install.bat` and then execute `run.bat`
